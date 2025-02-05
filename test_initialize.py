@@ -1,3 +1,20 @@
+# funcao testada:
+#     def initialize(self):
+#         # get the database instance
+#         self.PGSQLConn = self.application.PGSQLConn
+
+#         # get the mode of system (debug or not)
+#         self.DEBUG_MODE = self.application.DEBUG_MODE
+
+#         if self.DEBUG_MODE:
+#             self.__REDIRECT_URI_GOOGLE__ = __REDIRECT_URI_GOOGLE_DEBUG__
+#             self.__REDIRECT_URI_FACEBOOK__ = __REDIRECT_URI_FACEBOOK_DEBUG__
+#             self.__AFTER_LOGIN_REDIRECT_TO__ = __AFTER_LOGIN_REDIRECT_TO_DEBUG__
+#         else:
+#             self.__REDIRECT_URI_GOOGLE__ = __REDIRECT_URI_GOOGLE__
+#             self.__REDIRECT_URI_FACEBOOK__ = __REDIRECT_URI_FACEBOOK__
+#             self.__AFTER_LOGIN_REDIRECT_TO__ = __AFTER_LOGIN_REDIRECT_TO__
+
 import unittest
 from unittest.mock import patch, MagicMock
 from requests.exceptions import HTTPError
